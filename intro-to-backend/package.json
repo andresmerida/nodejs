@@ -1,0 +1,19 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "intro to backend",
+  "license": "ISC",
+  "author": "andres",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.1",
+    "nodemon": "^3.1.14"
+  }
+}
